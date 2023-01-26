@@ -32,7 +32,7 @@ Product.init(
     },
     category_id: {
       type: DataTypes.INTEGER,
-      belongsTo: Category.id,
+      // belongsTo: Category.id,
       references: {
         model: 'category',
         key: 'id',// define columns
